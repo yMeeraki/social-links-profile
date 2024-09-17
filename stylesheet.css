@@ -1,0 +1,26 @@
+/*Styling of body*/
+body{
+    font-size:0.875 rem;
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+
+    background-color: hsl(0, 0%, 20%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+/*Styling of card*/
+.card{
+    max-width: 20rem;
+    text-align: center;
+}
+
+/*Styling of card-links*/
+.links{
+    display: flex;
+    flex-direction: column;
+}
